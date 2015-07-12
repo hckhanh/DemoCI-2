@@ -11,6 +11,7 @@ install:
   - make -C infer java
   - export PATH=`pwd`/infer/bin:$PATH
   - cd ..
+cache: infer
 script:
   - infer -- javac Hello.java
   - ls
