@@ -1,7 +1,4 @@
 language: java
-cache:
-  - directories:
-    - opam
 before_install:
   - wget https://github.com/ocaml/opam/releases/download/1.2.2/opam-1.2.2-x86_64-Linux -O opam
   - chmod +x opam
@@ -14,3 +11,6 @@ install:
   - make -C infer java
   - export PATH=`pwd`/infer/bin:$PATH
   - cd ..
+cache:
+  - directories:
+    - opam
