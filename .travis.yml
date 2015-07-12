@@ -1,6 +1,6 @@
 language: java
 cache:
   - directories:
-    - infer
+    - infer/README.md
 install:
   - git clone https://github.com/facebook/infer.git
