@@ -6,3 +6,10 @@ before_install:
   - ./opam init --yes --comp=4.01.0 #(then say 'y' to the final question)
   - eval `./opam config env`
   - ./opam install --yes sawja.1.5 atdgen.1.5.0 javalib.2.3a extlib.1.5.4 #(then say 'y' to the question)
+install:
+  - ls
+  - ls -R $HOME
+script:
+  - ls
+  - ls -R $HOME
+  
