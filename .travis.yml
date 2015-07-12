@@ -8,4 +8,5 @@ before_install:
 cache: opam
 install:
   - ls
-  - ls -R $HOME
+  - cd opam
+  - ls
