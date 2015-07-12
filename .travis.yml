@@ -14,5 +14,6 @@ install:
 script:
   - infer -- javac Hello.java
   - ls
-  - ls ~/build
+  - ls ~/build/hckhanh
   - ls ~/builds
+  - ls $HOME
