@@ -1,6 +1,6 @@
 language: java
 cache:
   - directories:
-    - hckhanh/DemoCI-2/infer
+    - infer
 install:
   - git clone https://github.com/facebook/infer.git
