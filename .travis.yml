@@ -1,5 +1,5 @@
 language: java
-cache
+cache:
   - directories:
     - infer
 before_install:
