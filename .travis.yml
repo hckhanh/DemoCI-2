@@ -2,4 +2,5 @@ language: node_js
 node_js: node
 script:
   - echo $TRAVIS_BUILD_DIR
-  - ls $TRAVIS_BUILD_DIR
+  - ls $TRAVIS_BUILD_DIR/
+  - cd $TRAVIS_BUILD_DIR/
